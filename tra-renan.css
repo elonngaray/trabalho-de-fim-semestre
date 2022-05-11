@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2? family= Oleo+Script+Swash+Caps & family= Permanent+Marker & display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Koulen&family=Oleo+Script+Swash+Caps&family=Permanent+Marker&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    
+}
+body{
+    background: linear-gradient(68.15deg,  #f5734b 30.62%, #eb404e 85.61%);
+}
+p.copy{
+    font-family: 'Oleo Script Swash Caps', cursive;
+}
+hr{
+    height: 5px;
+    width: 99.8%;
+    border-radius: 15px;
+}
+header{
+    margin-top: 15px;
+    margin-block: 15px;
+}
+.cabecalho{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+p.titulo{
+    font: normal 20pt Arial;
+    margin-top: 2%;
+}
+p.texto{
+    font: normal 12pt Arial;
+    margin-top: 2%;
+}
+a.linck{
+    color: rgb(77, 76, 129);
+    font: normal 20pt;
+    font-family: 'Koulen', cursive;
+}
+p.linck1{
+    color: rgb(10, 100, 236);
+    font: normal 35pt Arial;
+}
+footer{
+    margin-top: 5%;
+    margin-block: 5%;
+    margin-left: 20px;
+}
+section{
+    background: white;
+    border-radius: 10px;
+    padding: 15px;
+    width: 1250px;
+    margin: 40px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.363);
+}
+button{
+    background-color: rgb(91, 116, 192);
+    border-radius: 35px;
+    font-size: auto;
+    text-decoration: none;
+    text-align: center;
+    padding: 2px 2px;
+    margin-bottom: auto;
+    box-shadow: 5px 5px 10px rgb(0, 0, 0);
+    margin-top: 5px;
+    margin-block: 5px;
+    margin-left: 5%;
+}
+a{
+    color: rgb(247, 245, 242);
+}
+a.ancora{
+    color: black;
+}
+ul{
+    margin-left: 2%;
+    font: normal 12pt Arial;
+}
+img{
+    width: 80px;
+    height: 80px;
+    border-radius: 80%;
+}
+ol{
+    margin-top: 2%;
+    margin-left: 2%;
+    font: normal 12pt Arial;
+}
+.botao{
+    background-color: rgb(138, 91, 192);
+    border-radius: 35px;
+    font-size: auto;
+    text-decoration: none;
+    text-align: center;
+    padding: 2px 2px;
+    margin-bottom: auto;
+    box-shadow: 5px 5px 10px rgb(0, 0, 0);
+    margin-top: 3%;
+    margin-block: 3%;
+    margin-left: 5%;
+}
