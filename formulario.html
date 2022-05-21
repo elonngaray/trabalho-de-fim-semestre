@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="tra-renan.css" media="screen" type="text/css">
+    <title>Cadastro</title>
+    <meta http-equiv="X-UA-Compatible" content="IE-edge,chrome=1">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <meta name="HandheldFriendly" content="True">
+    <meta name="MobileOptimized" content="320">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta http-equiv="cleartype" content="on">
+    <meta name="theme-color" content="#ff0000" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="application-name" content="My Web App">
+    <meta name="apple-mobile-web-app-title" content="Mobile rules">
+    <meta name="apple-mobile-web-app-status-bar-style" content="red">
+</head>
+
+<body>
+    <header class="cabecalho">
+        <h1>Formulário</h1>
+        <img src="cyborg-school.png" alt="logo">
+    </header>
+    <hr noshade="" color="black">
+    <section>
+    <div id="campo">
+        <h1 id="titulo"> Cadastro de dev</h1>
+        <p id="subtitulo">complete suas informações</p><br>
+
+
+    </div>
+    
+    <form>
+        <fieldset noshade="" class="grupo">
+            <div class="campo">
+                <label for="Nome"><strong>Nome</strong></label>
+                <input type="text" name="nome" ip="nome" required>
+            </div>
+
+            <div class="campo">
+                <label for="Sobrenome"><strong>Sobrenome</strong></label>
+                <input type="text" name="sobrenome" ip="sobrenome" required>
+            </div>
+        </fieldset>
+        <div class="campo">
+            <label for="Email"><strong>Email</strong></label>
+            <input type="email" name="email" ip="email" required>
+        </div>
+            <div class="campo">
+                <label><strong>Qual lado da aplicação voce desenvolve?</strong></label>
+                <label>
+                    <input type="radio" name="devweb" value="frotend">Front-end
+                </label>
+                <label>
+                    <input type="radio" name="devweb" value="backend">Back-end
+                </label>
+                <label>
+                    <input type="radio" name="devweb" value="fulltack">Fullstack
+                </label>
+
+            </div>
+        <div class="campo">
+            <label id="senioridade"><strong>Senioridade</strong></label>
+            <select id="senioridade">
+            <option selected disabled value="">Selecione</option>  
+            <option>junior</option>
+            <option>Pleno</option>
+            <option>senior</option>
+        </select>
+        </div>
+    
+    <fieldset noshade="" class="grupo">
+        <div class="campo">
+            <label><strong>Selecione as tecnologias que utilisa</strong></label><br><br>
+            <input type="checkbox" id="tecnologia1" name="tecnologia1" value="HTML">
+            <label for="tecnologia1">HTML</label>
+            <input type="checkbox" id="tecnologia2" name="tecnologia2" value="CSS">
+            <label for="tecnologia2">CSS</label>
+            <input type="checkbox" id="tecnologia3" name="tecnologia3" value="JavaScript">
+            <label for="tecnologia3">JavaScript</label>
+            <input type="checkbox" id="tecnologia4" name="tecnologia4" value="PHP">
+            <label for="tecnologia4">PHP</label>
+            <input type="checkbox" id="tecnologia5" name="tecnologia5" value="C#">
+            <label for="tecnologia5">C#</label>
+            <input type="checkbox" id="tecnologia6" name="tecnologia6" value="Pyton">
+            <label for="tecnologia6">Pyton</label>
+            <input type="checkbox" id="tecnologia7" name="tecnologia7" value="Java">
+            <label for="tecnologia1">Java</label>
+        </div>
+    </fieldset>
+    <div class="campo">
+        <br>
+        <label><strong>Conte um poco sobre suas esperiêcias</strong></label>
+        <textarea row="6" style="width: 50em; height: 25em;" id="experiemcia"></textarea>
+    </div class="Botao">
+        <button type="submit">Concluido</button>
+    </form>
+</section>
+<hr noshade="" color="black">
+    <footer>
+        <a name="rodape"></a>
+            <p class="linck1">Cite's</p>
+        <table class="rodape">
+            <tr >
+                <td class="rlinck"><a CLASS="linck"
+                    href="https://blog.bipbop.com.br/programador-por-que-ele-deve-ser-valorizado/">blog.bipbop</a></td>
+                <td class="rlinck"><a CLASS="linck" href="index.html">Pagina Inicial</a></td>
+                
+            </tr >
+            <tr>
+                <td class="rlinck"><a CLASS="linck" href="https://www.alura.com.br/empresas/artigos/linguagens-de-programacao-mais-usadas?gclid=CjwKCAjwve2TBhByEiwAaktM1EJVLad1qSsRtwm3ZZs75DA3eq-tfX0MUHPZ5gTrxQ4An2N2uZScIxoCAnoQAvD_BwE">Alura</a></td>
+                <td class="rlinck"><a class="linck"href="formulario.html">Formulário</a></td>
+            </tr>
+            <tr>
+                <td class="rlinck"><a CLASS="linck" href="https://github.com/">GitHub (Referencia de pesquisa da Lista)</a></td>
+                <td class="rlinck"><a CLASS="linck" href="tabela.html">Tabela</a></td>
+            </tr>
+            <tr>
+                <td class="rlinck"><a CLASS="linck" href="https://icons8.com/illustrations/illustration/cyborg-school">Icons8 (cite de imagens gratuatas)</a></td>
+            </tr>
+            <tr>
+                <td class="rlinck"><a CLASS="linck" href="https://github.com/elonngaray/trabalho-de-fim-semestre">Meu GitHub</a></td>
+            </tr>    
+            </table>    
+        <p class="copy">&copy; - Érico C. Longaray</p>
+    </footer>
+</body>
+</html>

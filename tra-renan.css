@@ -8,7 +8,8 @@
     
 }
 body{
-    background: linear-gradient(68.15deg,  #f5734b 30.62%, #eb404e 85.61%);
+    background: linear-gradient(40.15deg,  #d1785c 45.62%, #5a3036 89.61%);
+    
 }
 p.copy{
     font-family: 'Oleo Script Swash Caps', cursive;
@@ -41,6 +42,15 @@ a.linck{
     font: normal 20pt;
     font-family: 'Koulen', cursive;
 }
+#titulo {
+    width: 250px;
+    margin: 0 auto;
+    font-size: xx-large;
+}
+#subtitulo{
+    width: 200px;
+    margin: 0 auto
+}
 p.linck1{
     color: rgb(10, 100, 236);
     font: normal 35pt Arial;
@@ -51,6 +61,16 @@ footer{
     margin-left: 20px;
 }
 section{
+    background: white;
+    border-radius: 10px;
+    padding: 15px;
+    margin: 40px 50px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.363);
+    margin-left: 20%;
+    margin-right: 20%;
+    
+}
+main{
     background: white;
     border-radius: 10px;
     padding: 15px;
@@ -103,4 +123,46 @@ ol{
     margin-top: 3%;
     margin-block: 3%;
     margin-left: 5%;
+}
+
+fieldset{
+    border: none;
+    padding-top: 0.2%;
+    padding-bottom: 0.2%;
+    }
+fieldset.grupo .campo {
+    float: left;
+    margin-right: 1em;
+    border-width: medium;
+}
+#div{
+    display: inline-block;
+    /*padding-left: 45%;*/
+}
+.campo input[type="text"], .campo input[type="email"], .campo select, .campo textarea{
+    padding: 0.2em;
+    border: 1px solid;
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.2);
+    margin-top: 2%;
+    margin-block: 2%;
+    align-items: center;
+}
+.campo{
+    align-items: center;
+}
+/*#experiencia{
+    width: 100px;
+    height: 100px;
+}*/
+form{
+    padding: 45px;
+}
+table.rodape{
+    display: flex;
+    flex-direction: row;
+    height: 200px;
+    justify-content: first baseline;
+}
+td.rlinck{
+    width: 500px;
 }
