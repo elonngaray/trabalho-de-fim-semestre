@@ -101,11 +101,15 @@ ul{
     margin-left: 2%;
     font: normal 12pt Arial;
 }
-img{
+img.logo{
     width: 80px;
     height: 80px;
     border-radius: 80%;
 }
+/*.galeria{
+    width: 120px;
+    height: 120px
+}*/
 ol{
     margin-top: 2%;
     margin-left: 2%;
@@ -150,10 +154,13 @@ fieldset.grupo .campo {
 .campo{
     align-items: center;
 }
-/*#experiencia{
-    width: 100px;
-    height: 100px;
-}*/
+textarea{
+    font-size: 16px; /*tamanho da escrita*/
+    height: 35vh; /*serve para regular o numero de linhas*/
+    width: 80%;
+    border-radius: 20px 20px 20px 20px;
+
+}
 form{
     padding: 45px;
 }
