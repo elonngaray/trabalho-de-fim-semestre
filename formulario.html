@@ -33,32 +33,32 @@
 
     </div>
     
-    <form>
+    <form id="formulario">
         <fieldset noshade="" class="grupo">
             <div class="campo">
                 <label for="Nome"><strong>Nome</strong></label>
-                <input type="text" name="nome" ip="nome" required>
+                <input type="text" name="nome" ip="nome" id="nomeusuario" required>
             </div>
 
             <div class="campo">
                 <label for="Sobrenome"><strong>Sobrenome</strong></label>
-                <input type="text" name="sobrenome" ip="sobrenome" required>
+                <input type="text" name="sobrenome" ip="sobrenome" id="sobrenome" required>
             </div>
         </fieldset>
         <div class="campo">
             <label for="Email"><strong>Email</strong></label>
-            <input type="email" name="email" ip="email" required>
+            <input type="email" name="email" ip="email" id="email" required>
         </div>
             <div class="campo">
-                <label><strong>Qual lado da aplicação voce desenvolve?</strong></label>
+                <label id="profissao"><strong>Qual lado da aplicação voce desenvolve?</strong></label>
                 <label>
-                    <input type="radio" name="devweb" value="frotend">Front-end
+                    <input type="radio" name="devweb" value="frotend" id="front-end">Front-end
                 </label>
                 <label>
-                    <input type="radio" name="devweb" value="backend">Back-end
+                    <input type="radio" name="devweb" value="backend" id="Back-end">Back-end
                 </label>
                 <label>
-                    <input type="radio" name="devweb" value="fulltack">Fullstack
+                    <input type="radio" name="devweb" value="fulltack" id="Fullstack">Fullstack
                 </label>
 
             </div>
@@ -66,38 +66,51 @@
             <label id="senioridade"><strong>Senioridade</strong></label>
             <select id="senioridade">
             <option selected disabled value="">Selecione</option>  
-            <option>junior</option>
-            <option>Pleno</option>
-            <option>senior</option>
+            <option id="junior">junior</option>
+            <option id="pleno">Pleno</option>
+            <option id="pleno">senior</option>
         </select>
         </div>
     
-    <fieldset noshade="" class="grupo">
-        <div class="campo">
-            <label><strong>Selecione as tecnologias que utilisa</strong></label><br><br>
-            <input type="checkbox" id="tecnologia1" name="tecnologia1" value="HTML">
-            <label for="tecnologia1">HTML</label>
-            <input type="checkbox" id="tecnologia2" name="tecnologia2" value="CSS">
-            <label for="tecnologia2">CSS</label>
-            <input type="checkbox" id="tecnologia3" name="tecnologia3" value="JavaScript">
-            <label for="tecnologia3">JavaScript</label>
-            <input type="checkbox" id="tecnologia4" name="tecnologia4" value="PHP">
-            <label for="tecnologia4">PHP</label>
-            <input type="checkbox" id="tecnologia5" name="tecnologia5" value="C#">
-            <label for="tecnologia5">C#</label>
-            <input type="checkbox" id="tecnologia6" name="tecnologia6" value="Pyton">
-            <label for="tecnologia6">Pyton</label>
-            <input type="checkbox" id="tecnologia7" name="tecnologia7" value="Java">
-            <label for="tecnologia1">Java</label>
-        </div>
-    </fieldset>
+            <fieldset noshade="" class="grupo" id="grupo">
+                <div class="campo">
+                    <label><strong>Selecione as tecnologias que utilisa</strong></label><br><br>
+                    <input type="checkbox" id="tecnologia1" name="tecnologia1" value="HTML">
+                    <label for="tecnologia1">HTML</label>
+                    <input type="checkbox" id="tecnologia2" name="tecnologia2" value="CSS">
+                    <label for="tecnologia2">CSS</label>
+                    <input type="checkbox" id="tecnologia3" name="tecnologia3" value="JavaScript">
+                    <label for="tecnologia3">JavaScript</label>
+                    <input type="checkbox" id="tecnologia4" name="tecnologia4" value="PHP">
+                    <label for="tecnologia4">PHP</label>
+                    <input type="checkbox" id="tecnologia5" name="tecnologia5" value="C#">
+                    <label for="tecnologia5">C#</label>
+                    <input type="checkbox" id="tecnologia6" name="tecnologia6" value="Pyton">
+                    <label for="tecnologia6">Pyton</label>
+                    <input type="checkbox" id="tecnologia7" name="tecnologia7" value="Java">
+                    <label for="tecnologia7">Java</label>
+                </div>
+                
+            </fieldset>
     <div class="campo">
         <br>
         <label><strong>Conte um poco sobre suas esperiêcias</strong></label><br>
         <textarea row="6"  id="experiemcia"></textarea>
     </div class="Botao">
-        <button type="submit">Concluido</button>
+        <input style="background-color: rgb(132, 0, 255);
+        border-radius: 35px;
+        font-size: 15px;
+        text-decoration: none;
+        text-align: center;
+        padding: 2px 2px;
+        margin-bottom: auto;
+        box-shadow: 5px 5px 10px rgb(0, 0, 0);
+        margin-top: 5px;
+        margin-block: 5px;
+        margin-left: 5%;" type="button" value="Salvar" onclick="cadastro()" id="salvar">
+        <button type="submit" id="resposta">Concluido</button>
     </form>
+    <div id="res"></div>
 </section>
 <hr noshade="" color="black">
     <footer>
@@ -128,5 +141,6 @@
             </table>    
         <p class="copy">&copy; - Érico C. Longaray</p>
     </footer>
+    <script src="tra-renan.js"></script>
 </body>
 </html>
