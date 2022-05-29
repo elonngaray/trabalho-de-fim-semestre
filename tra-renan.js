@@ -13,16 +13,17 @@ var sobre = String (sobre.value)
 var email = String (email.value)
 var senio = String (senio.value)
 var texto = String (texto.value)
-let tec =  ''
+let tec = ['']
 var profissao = ''
 
     for(i = 0; i < form.length; i++){
         if (form[i].checked) {
             tec = (tec + form[i].value) + ', ' 
         }
+    
     }
-
-    if(prof[0].checked){
+        
+        if(prof[0].checked){
             profissao = 'Front-end'
         }else if(prof[1].checked){
             profissao = 'Back-end'
