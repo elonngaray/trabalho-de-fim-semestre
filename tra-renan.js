@@ -18,7 +18,7 @@ var profissao = ''
 
     for(i = 0; i < form.length; i++){
         if (form[i].checked) {
-            tec = (tec + form[i].value) + ', ' 
+            tec = (tec + form[i].name) + ', ' 
         }
     
     }
@@ -35,7 +35,7 @@ var profissao = ''
     res.innerHTML += `<p style="font-size: large;">${nome} ${sobre}, seu cadastro foi emviado para ${email}</p>`
     res.innerHTML += `<form style="font=size: 25px; color: #4682B4;"><p>Nome completo: ${nome} ${sobre}</p><br>
     <p>senioridade: ${senio}</p><br><p>Profissão: ${profissao}</p><p style="color:red;">Voce sabe utilizar a(s) 
-    Tecnologia(s): ${tec}
+    Tecnologia(s): ${tec.substring(7)}
     </p><br><br><p style="color: black;">${texto}</p></form>`
     window.alert(`${nome} ${sobre}, seu cadastro foi emviado para ${email}`)
 }
