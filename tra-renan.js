@@ -4,7 +4,7 @@ var sobre = window.document.querySelector('input#sobrenome')
 var email = window.document.querySelector('input#email')
 var senio = document.querySelector('select#senioridade')
 var prof = document.getElementsByName('devweb')
-var texto = document.querySelector('textarea#experiemcia')
+var texto = document.querySelector('textarea#experiencia')
 let form = document.querySelector('form#formulario')
 var res = window.document.querySelector('div#res')
 
