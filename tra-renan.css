@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2? family= Oleo+Script+Swash+Caps & family= Permanent+Marker & display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Koulen&family=Oleo+Script+Swash+Caps&family=Permanent+Marker&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Koulen&family=Oleo+Script+Swash+Caps&family=Permanent+Marker&family=Secular+One&display=swap');
+
 *{
     margin: 0;
     padding: 0;
@@ -39,7 +41,7 @@ p.texto{
 a.linck{
     color: rgb(77, 76, 129);
     font: normal 20pt;
-    font-family: 'Koulen', cursive;
+    font-family: 'Secular One', sans-serif;
 }
 #titulo {
     width: 250px;
